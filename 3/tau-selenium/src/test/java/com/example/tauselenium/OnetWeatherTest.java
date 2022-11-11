@@ -30,7 +30,7 @@ public class OnetWeatherTest {
     public void testWeatherInGdansk() throws Exception {
         driver.get("https://www.onet.pl/");
         driver.findElement(By.xpath("/html/body/div[6]/div[1]/div[2]/div/div[6]/button[2]")).click();
-        driver.findElement(By.linkText("10")).click();
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[1]/nav/div/div[6]/a")).click();
         driver.get("https://pogoda.onet.pl/prognoza-pogody/warszawa-357732");
         driver.findElement(By.id("locationSearch")).click();
         driver.findElement(By.id("locationSearch")).clear();
