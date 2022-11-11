@@ -27,3 +27,7 @@ version of browser used in below tests
 
 
 ![img.png](img.png)
+
+Test result movie: 
+https://user-images.githubusercontent.com/47868085/201426654-f4b22ccf-572a-4aa7-a66a-13d761956de1.mp4
+
