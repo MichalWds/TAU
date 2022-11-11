@@ -19,9 +19,11 @@ version of browser used in below tests
  * baseUrl -> https://www.google.pl/
  * type and go to url https://onet.pl
  * click "przejdz do serwisu", accepting onet's rules
- * click bar with "pogoda" and go to the https://pogoda.onet.pl/prognoza-pogody/warszawa-357732
+ * click bar with "pogoda" and go to the https://pogoda.onet.pl/
  * click on the search bar to type "Gda"
  * autosuggestion provide 'Gdańsk' as city to click
  * click on the suggestion and go to the https://pogoda.onet.pl/prognoza-pogody/gdansk-287788 where weather will be displayed
+
+
 
 ![img.png](img.png)
