@@ -6,7 +6,7 @@ version of browser used in below tests
 - link to the chrome drive : https://chromedriver.storage.googleapis.com/index.html?path=107.0.5304.62/
 - MacOS Catalina can complain about "chromedriver" can not be opened because of unchecked verification. In that situation use 
 
-    `xattr -d com.apple.quarantine <name-of-executable>` command
+    `xattr -d com.apple.quarantine <name-of-executable>` command in folder of the existing driver
 
 1. WikipediaTest (check if content of "ryby" exists in wikipedia. It should work by finding it in the google search bar)
  * base url -> https://www.google.pl/
