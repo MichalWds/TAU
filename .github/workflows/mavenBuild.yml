@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven test
-      working-directory: /4/movieApp-main/src
+      working-directory: ./4/movieApp-main/src
       run: mvn test 
 #     - name: Run Tests --file pom.xml
 #       working-directory: /4/movieApp-main/src
