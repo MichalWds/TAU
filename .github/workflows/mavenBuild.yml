@@ -28,9 +28,9 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven test
-      working-directory: /4/movieApp-main/src/test
-      run: mvn -B package test --file pom.xml
-#     - name: Run Tests
+      working-directory: /4/movieApp-main/src
+      run: mvn test 
+#     - name: Run Tests --file pom.xml
 #       working-directory: /4/movieApp-main/src
 #       run: mvn test
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
