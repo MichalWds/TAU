@@ -31,5 +31,5 @@ jobs:
       working-directory: ./4/movieApp-main
       run: mvn --batch-mode -DskipTests package
     - name: Run Tests
-      working-directory: /4/movieApp-main
+      working-directory: ./4/movieApp-main
       run: mvn --batch-mode -Dmaven.test.failure.ignore=true test
