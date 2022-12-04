@@ -28,7 +28,7 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: Build with Maven test
-      working-directory: ./4/movieApp-main/src
+      working-directory: ./4/movieApp-main
       run: mvn --batch-mode -DskipTests package
 #     - name: Run Tests --file pom.xml
 #       working-directory: /4/movieApp-main/src
