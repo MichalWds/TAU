@@ -27,9 +27,6 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
         cache: maven
-    - name: Build with Maven test
-      working-directory: ./4/movieApp-main
-      run: mvn --batch-mode -DskipTests package
     - name: Run Tests
       working-directory: ./4/movieApp-main
       run: mvn --batch-mode -Dmaven.test.failure.ignore=true test
