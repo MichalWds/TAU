@@ -25,11 +25,11 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '11'
-        distribution: 'temurin'
+        distribution: 'adopt'
         cache: maven
     - name: Build with Maven test
       working-directory: ./4/movieApp-main/src
-      run: mvn test
+      run: mvn --batch-mode -DskipTests package
 #     - name: Run Tests --file pom.xml
 #       working-directory: /4/movieApp-main/src
 #       run: mvn test
